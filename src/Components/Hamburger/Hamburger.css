@@ -1,0 +1,87 @@
+.sandwich-menu {
+  position: relative;
+  width: 50px;
+}
+
+.sandwich-menu-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+  padding: 10px;
+  color: #000000;
+}
+
+.sandwich-menu-list {
+  position: absolute;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  background-color: #ffffff;
+  border: 1px rgb(163, 163, 163) ;
+  box-shadow: -1px 0px 3px rgba(163, 163, 163, 0.493);
+  margin-top: 0px;
+  margin-left: 8px;
+  list-style-type: none;
+  border-radius: 4px;
+}
+
+.sandwich-menu-list li:hover {
+  background-color: #810000;  
+  width: 100%;
+  color: white;
+}
+
+a{
+  text-decoration: none;
+  color: #000000;  
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+/* ---------------------------------------- */
+
+/*.sandwich-menu {
+    position: relative;
+  }
+  
+  .sandwich-.sandwich-menu-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    padding: 10px;
+    color: #333;
+  }
+  
+  .sandwich-menu__list {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    list-style-type: none;
+    /*display: none;
+  }
+  
+  /*.sandwich-menu__list li {
+    padding: 5px 0;
+  }
+  
+  .sandwich-menu__list li:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .sandwich-menu__list.visible {
+    display: block;
+  } */
