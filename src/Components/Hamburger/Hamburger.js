@@ -10,20 +10,25 @@ const Hamburger = (props) => {
   };
 
   const itens = [
-    { title: "Sobre",
+    {
+      title: "Sobre",
       link: "/teste"
     },
-    { title: "Contato" },
-    { title: "Regras" },
-    { title: "Teste" },
-    { title: "Teste 2" },
+    {
+      title: "Contato",
+      link: "/teste2"
+    },
+    {
+      title: "Regras",
+      link: "/teste3"
+    },
   ]
 
   return (
     <div className="sandwich-menu">
       <button className="sandwich-menu-button" onClick={toggleMenu} onMouseEnter={toggleMenu} >
         ☰
-      </button> 
+      </button>
       {isOpen && (
         <ul className="sandwich-menu-list">
           {
